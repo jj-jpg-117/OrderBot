@@ -272,7 +272,7 @@ La colección usada es `pedidos`; el `id` del documento se mapea al campo `Pedid
 ## Estado del proyecto y limitaciones
 
 - ☁️ **Firebase no está incluido** en el proyecto; la sincronización remota es opcional y está desactivada por defecto.
-- 🖼️ **AppIcon sin imagen**: el `AppIcon.appiconset` existe pero está vacío, por lo que se muestra el icono genérico. Falta añadir un PNG de 1024×1024.
+- 🖼️ **AppIcon** generado a partir de `logo_bot1.png` (`AppIcon-1024.png`, 1024×1024, opaco), por lo que ya no se muestra el icono genérico.
 - 🚧 El botón **"Seguir pedido en vivo"** de la confirmación es un placeholder.
 - 📱 El deployment target es **iOS 26.0**; para dar soporte a versiones anteriores hay que bajarlo en *Build Settings* y revisar las APIs usadas.
 - 🔒 El proyecto no incluye reglas de seguridad de Firestore; deben configurarse en la consola antes de usarlo en producción.
