@@ -1,0 +1,901 @@
+{
+  "sourceLanguage" : "es",
+  "strings" : {
+    "%@ %@" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ %2$@"
+          }
+        }
+      }
+    },
+    "%lld" : {
+
+    },
+    "✓" : {
+
+    },
+    "📍 %@ — Total: %@" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "📍 %1$@ — Total: %2$@"
+          }
+        }
+      }
+    },
+    "app_name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OrderBot"
+          }
+        }
+      }
+    },
+    "cantidad_agregar" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Agregar una unidad"
+          }
+        }
+      }
+    },
+    "cantidad_quitar" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quitar una unidad"
+          }
+        }
+      }
+    },
+    "confirmacion_boton_seguir" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seguir pedido en vivo"
+          }
+        }
+      }
+    },
+    "confirmacion_boton_volver" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volver al inicio"
+          }
+        }
+      }
+    },
+    "confirmacion_entrega_estimada" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "⏱️ Entrega estimada: 30 - 40 minutos"
+          }
+        }
+      }
+    },
+    "confirmacion_estado" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📦 Estado: Pedido recibido"
+          }
+        }
+      }
+    },
+    "confirmacion_mensaje" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tu pedido ha sido recibido correctamente."
+          }
+        }
+      }
+    },
+    "confirmacion_metodo_pago" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "💳 Método de pago: Por definir"
+          }
+        }
+      }
+    },
+    "confirmacion_numero_pedido" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pedido #%1$d"
+          }
+        }
+      }
+    },
+    "confirmacion_titulo" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Pedido confirmado!"
+          }
+        }
+      }
+    },
+    "conversacion_boton_continuar" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continuar"
+          }
+        }
+      }
+    },
+    "conversacion_pregunta" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Qué deseas pedir hoy?"
+          }
+        }
+      }
+    },
+    "conversacion_saludo" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hola 👋"
+          }
+        }
+      }
+    },
+    "conversacion_subtitulo" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Asistente de pedidos"
+          }
+        }
+      }
+    },
+    "conversacion_titulo" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OrderBot 💬"
+          }
+        }
+      }
+    },
+    "creditos_anio" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$d"
+          }
+        }
+      }
+    },
+    "creditos_boton_volver" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volver"
+          }
+        }
+      }
+    },
+    "creditos_derechos" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "© %1$d OrderBot. Todos los derechos reservados."
+          }
+        }
+      }
+    },
+    "creditos_equipo_titulo" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Equipo de desarrollo"
+          }
+        }
+      }
+    },
+    "creditos_integrante_1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Juan Ruales"
+          }
+        }
+      }
+    },
+    "creditos_integrante_2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Juan Perafan"
+          }
+        }
+      }
+    },
+    "creditos_titulo" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acerca de OrderBot"
+          }
+        }
+      }
+    },
+    "creditos_version" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versión %1$@"
+          }
+        }
+      }
+    },
+    "entrega_boton_continuar" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ver resumen"
+          }
+        }
+      }
+    },
+    "entrega_direccion_placeholder" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ej: Calle 123 #45-67, Apto 801"
+          }
+        }
+      }
+    },
+    "entrega_direccion_titulo" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 Dirección de entrega"
+          }
+        }
+      }
+    },
+    "entrega_metodo_pago_titulo" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "💳 Método de pago"
+          }
+        }
+      }
+    },
+    "entrega_titulo" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Datos de entrega"
+          }
+        }
+      }
+    },
+    "inicio_beneficio_rapido_desc" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disponible las 24 horas."
+          }
+        }
+      }
+    },
+    "inicio_beneficio_rapido_titulo" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atención instantánea"
+          }
+        }
+      }
+    },
+    "inicio_beneficio_sugerencias_desc" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Encuentra opciones según tu pedido."
+          }
+        }
+      }
+    },
+    "inicio_beneficio_sugerencias_titulo" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sugerencias personalizadas"
+          }
+        }
+      }
+    },
+    "inicio_boton_comenzar" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comenzar"
+          }
+        }
+      }
+    },
+    "inicio_boton_creditos" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Créditos"
+          }
+        }
+      }
+    },
+    "inicio_eslogan" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Pide fácil, recibe rápido!"
+          }
+        }
+      }
+    },
+    "logo_descripcion" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Logo de OrderBot"
+          }
+        }
+      }
+    },
+    "pago_billetera" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📱 Billetera digital"
+          }
+        }
+      }
+    },
+    "pago_efectivo" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "💵 Efectivo"
+          }
+        }
+      }
+    },
+    "pago_tarjeta" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "💳 Tarjeta"
+          }
+        }
+      }
+    },
+    "producto_bebida" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bebida"
+          }
+        }
+      }
+    },
+    "producto_boton_elegir" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elegir"
+          }
+        }
+      }
+    },
+    "producto_burrito" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Burrito"
+          }
+        }
+      }
+    },
+    "producto_burrito_desc" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Relleno de carne y frijoles"
+          }
+        }
+      }
+    },
+    "producto_ensalada" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ensalada"
+          }
+        }
+      }
+    },
+    "producto_ensalada_desc" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fresca y saludable"
+          }
+        }
+      }
+    },
+    "producto_hamburguesa" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hamburguesa"
+          }
+        }
+      }
+    },
+    "producto_hamburguesa_desc" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hamburguesa clásica"
+          }
+        }
+      }
+    },
+    "producto_helado" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Helado"
+          }
+        }
+      }
+    },
+    "producto_helado_desc" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vainilla y chocolate"
+          }
+        }
+      }
+    },
+    "producto_hotdog" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hot dog"
+          }
+        }
+      }
+    },
+    "producto_hotdog_desc" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salchicha americana"
+          }
+        }
+      }
+    },
+    "producto_papas" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Papas"
+          }
+        }
+      }
+    },
+    "producto_pizza" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pizza"
+          }
+        }
+      }
+    },
+    "producto_pizza_desc" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Porción familiar"
+          }
+        }
+      }
+    },
+    "producto_pollo" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pollo broaster"
+          }
+        }
+      }
+    },
+    "producto_pollo_desc" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crujiente y dorado"
+          }
+        }
+      }
+    },
+    "producto_tacos" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tacos"
+          }
+        }
+      }
+    },
+    "producto_tacos_desc" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tres unidades mexicanas"
+          }
+        }
+      }
+    },
+    "recomendacion_boton_aceptar" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sí, claro"
+          }
+        }
+      }
+    },
+    "recomendacion_boton_rechazar" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No, gracias"
+          }
+        }
+      }
+    },
+    "recomendacion_detalle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Agrega papas y bebida por un precio adicional."
+          }
+        }
+      }
+    },
+    "recomendacion_pregunta" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Quieres completar tu pedido?"
+          }
+        }
+      }
+    },
+    "recomendacion_titulo" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Excelente elección!"
+          }
+        }
+      }
+    },
+    "remota_titulo" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pedidos en la nube"
+          }
+        }
+      }
+    },
+    "remota_vacia" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No hay pedidos remotos."
+          }
+        }
+      }
+    },
+    "resumen_boton_confirmar" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Confirmar Pedido"
+          }
+        }
+      }
+    },
+    "resumen_direccion" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dirección: %1$@"
+          }
+        }
+      }
+    },
+    "resumen_envio" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Envío"
+          }
+        }
+      }
+    },
+    "resumen_pago" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pago: %1$@"
+          }
+        }
+      }
+    },
+    "resumen_seccion_entrega" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🚚 Entrega"
+          }
+        }
+      }
+    },
+    "resumen_seccion_productos" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Productos"
+          }
+        }
+      }
+    },
+    "resumen_subtotal" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Subtotal"
+          }
+        }
+      }
+    },
+    "resumen_titulo" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resumen del pedido"
+          }
+        }
+      }
+    },
+    "resumen_total" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "TOTAL"
+          }
+        }
+      }
+    },
+    "tema_cambiar" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cambiar tema"
+          }
+        }
+      }
+    },
+    "tema_modo_claro" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "claro"
+          }
+        }
+      }
+    },
+    "tema_modo_oscuro" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "oscuro"
+          }
+        }
+      }
+    },
+    "tema_modo_sistema" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "automático (sistema)"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

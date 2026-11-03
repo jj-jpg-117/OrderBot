@@ -8,6 +8,7 @@
 
 /* Begin PBXFileReference section */
 		2931BC60309A275E00DEBF4F /* OrderBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrderBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2931BC81309A276000DEBF4F /* OrderBotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrderBotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -16,10 +17,22 @@
 			path = OrderBot;
 			sourceTree = "<group>";
 		};
+		2931BC82309A276000DEBF4F /* OrderBotTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OrderBotTests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		2931BC5D309A275E00DEBF4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2931BC84309A276000DEBF4F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,6 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				2931BC62309A275E00DEBF4F /* OrderBot */,
+				2931BC82309A276000DEBF4F /* OrderBotTests */,
 				2931BC61309A275E00DEBF4F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				2931BC60309A275E00DEBF4F /* OrderBot.app */,
+				2931BC81309A276000DEBF4F /* OrderBotTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +85,29 @@
 			productReference = 2931BC60309A275E00DEBF4F /* OrderBot.app */;
 			productType = "com.apple.product-type.application";
 		};
+		2931BC80309A276000DEBF4F /* OrderBotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2931BC86309A276000DEBF4F /* Build configuration list for PBXNativeTarget "OrderBotTests" */;
+			buildPhases = (
+				2931BC83309A276000DEBF4F /* Sources */,
+				2931BC84309A276000DEBF4F /* Frameworks */,
+				2931BC85309A276000DEBF4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2931BC89309A276000DEBF4F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2931BC82309A276000DEBF4F /* OrderBotTests */,
+			);
+			name = OrderBotTests;
+			packageProductDependencies = (
+			);
+			productName = OrderBotTests;
+			productReference = 2931BC81309A276000DEBF4F /* OrderBotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -82,6 +120,10 @@
 				TargetAttributes = {
 					2931BC5F309A275E00DEBF4F = {
 						CreatedOnToolsVersion = 26.0.1;
+					};
+					2931BC80309A276000DEBF4F = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = 2931BC5F309A275E00DEBF4F;
 					};
 				};
 			};
@@ -100,12 +142,20 @@
 			projectRoot = "";
 			targets = (
 				2931BC5F309A275E00DEBF4F /* OrderBot */,
+				2931BC80309A276000DEBF4F /* OrderBotTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		2931BC5E309A275E00DEBF4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2931BC85309A276000DEBF4F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -122,7 +172,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2931BC83309A276000DEBF4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2931BC89309A276000DEBF4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2931BC5F309A275E00DEBF4F /* OrderBot */;
+			targetProxy = 2931BC8A309A276000DEBF4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXContainerItemProxy section */
+		2931BC8A309A276000DEBF4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2931BC58309A275E00DEBF4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2931BC5F309A275E00DEBF4F;
+			remoteInfo = OrderBot;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin XCBuildConfiguration section */
 		2931BC69309A276000DEBF4F /* Debug */ = {
@@ -306,6 +381,42 @@
 			};
 			name = Release;
 		};
+		2931BC87309A276000DEBF4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.unicauca.OrderBotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrderBot.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OrderBot";
+			};
+			name = Debug;
+		};
+		2931BC88309A276000DEBF4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.unicauca.OrderBotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrderBot.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OrderBot";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -323,6 +434,15 @@
 			buildConfigurations = (
 				2931BC6C309A276000DEBF4F /* Debug */,
 				2931BC6D309A276000DEBF4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2931BC86309A276000DEBF4F /* Build configuration list for PBXNativeTarget "OrderBotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2931BC87309A276000DEBF4F /* Debug */,
+				2931BC88309A276000DEBF4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
